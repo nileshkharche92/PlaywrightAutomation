@@ -8,7 +8,7 @@
     "chromeBrowser":"npx playwright test TitleAssertionPOManagerPO.spec.ts --headed browswer chromium"
   },
   "keywords": [],
-  "author": "Nilesh",
+  "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
