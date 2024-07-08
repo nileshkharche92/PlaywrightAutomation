@@ -5,7 +5,7 @@
   "scripts": {
     "test": "npx playwright test TitleAssertionPOManagerPO.spec.ts",
     "headed":"npx playwright test TitleAssertionPOManagerPO.spec.ts --headed",
-    "chromeBrowser":"npx playwright test TitleAssertionPOManagerPO.spec.ts --headed browswer chromium"
+    "chromeBrowser":"npx playwright test TitleAssertionPOManagerPO.spec.ts --headed browser chromium"
   },
   "keywords": [],
   "author": "",
