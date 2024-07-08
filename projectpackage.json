@@ -1,0 +1,22 @@
+{
+  "name": "playwrightautomation",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test FlipcartAddToCartItemPO.spec.ts",
+    "headed":"npx playwright test --headed",
+    "webTest":"npx playwright test --grep @Web",
+    "newConfigProjectSafari":"npx playwright test --config projectsPlaywright.config.js --project=safari",
+    "debug":"npx playwright test --debug" 
+  
+  },
+  "keywords": [],
+  "author": "Nilesh",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@playwright/test": "^1.44.1",
+    "@types/node": "^20.12.12",
+    "allure-playwright": "^3.0.0-beta.3"
+  }
+}
